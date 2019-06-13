@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&display=swap&subset=latin-ext');
+
+/* font-family: 'Comfortaa', cursive; */
+
+
+body {
+    background: #fefefe;
+    font-family: 'Comfortaa', cursive;
+}
+
+.nav {
+    text-transform: uppercase;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.mainHeader {
+    color: tomato;
+    font-weight: 700;
+
+}
+
+.sectionHeader {
+    color: #1460aa;
+    font-weight: 700;
+}
+
+.sectionSubtitle {
+    color: #257042;
+}
+
+p {
+    color: darkblue;
+}
+
+.footerArticle {
+    font-weight: 700;
+}
