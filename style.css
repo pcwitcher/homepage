@@ -18,8 +18,7 @@ body {
 
 .mainHeader {
     color: tomato;
-    font-weight: 700;
-
+    font-weight: 700
 }
 
 .sectionHeader {
@@ -31,10 +30,20 @@ body {
     color: #257042;
 }
 
-p {
+.paragraph {
     color: darkblue;
 }
 
 .footerArticle {
     font-weight: 700;
+}
+
+.link {
+    color: #846c5b;
+}
+
+.article--about,
+.article {
+    width: 100%;
+    max-width: 700px;
 }
