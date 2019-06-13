@@ -46,4 +46,6 @@ body {
 .article {
     width: 100%;
     max-width: 700px;
+    box-sizing: border-box;
+    margin: 32px auto:
 }
