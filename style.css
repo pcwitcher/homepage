@@ -4,7 +4,7 @@
 
 
 body {
-    background: #fefefe;
+    background-image: linear-gradient(45deg, #E2E8C0, #EDD9A3);
     font-family: 'Comfortaa', cursive;
     margin: 0;
 }
