@@ -6,10 +6,12 @@
 body {
     background: #fefefe;
     font-family: 'Comfortaa', cursive;
+    margin: 0;
 }
 
 .navigation {
     text-transform: uppercase;
+    margin: 10px;
 }
 
 .navigation__link {
@@ -52,4 +54,10 @@ body {
     max-width: 700px;
     box-sizing: border-box;
     margin: 32px auto;
+}
+
+.footer {
+    padding: 20px 20px;
+    background-color: #cea07e;
+    text-align: center;
 }
