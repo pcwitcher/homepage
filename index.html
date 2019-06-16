@@ -11,25 +11,25 @@
 </head>
 
 <body>
-    <header class="nav">
-        <a href="index.html">Main Page</a>
-        <a href="podstrona.html">Subpage</a>
-        <a href="monday.html">Monday</a>
-        <a href="tuesday.html">Tuesday</a>
-        <a href="wednesday.html">Wednesday</a>
-        <a href="thursday.html">Thursday</a>
-        <a href="friday.html">Friday</a>
-        <a href="saturday.html">Saturday</a>
-        <a href="sunday.html">Sunday</a>
+    <header class="navigation">
+        <a class="navigation__link" href="index.html">Main Page</a>
+        <a class="navigation__link" href="podstrona.html">Subpage</a>
+        <a class="navigation__link" href="monday.html">Monday</a>
+        <a class="navigation__link" href="tuesday.html">Tuesday</a>
+        <a class="navigation__link" href="wednesday.html">Wednesday</a>
+        <a class="navigation__link" href="thursday.html">Thursday</a>
+        <a class="navigation__link" href="friday.html">Friday</a>
+        <a class="navigation__link" href="saturday.html">Saturday</a>
+        <a class="navigation__link" href="sunday.html">Sunday</a>
     </header>
     <main>
-        <header>
-            <h1 class="mainHeader">
+        <header class="main__header">
+            <h1 class="main__header-title">
                 Zbigniew Drelich - Strona domowa
             </h1>
         </header>
-        <section class="article--about" class="article">
-            <h2 class="sectionHeader">Kim jestem?</h2>
+        <section class="article__about" class="article">
+            <h2 class="section__header">Kim jestem?</h2>
             <p class="paragraph">
                 Cześć. Codziennie wytwarzam z metalu wszelakie części do samolotów, urządzeń medycznych lub
                 sprężarek.
@@ -40,9 +40,9 @@
         </section>
 
         <section class="diary" id="diary">
-            <h2 class="sectionHeader">Pamiętniczek</h2>
+            <h2 class="section__header">Pamiętniczek</h2>
             <section class="article">
-                <h3 class="sectionSubtitle">Jak stworzyć prawidłowo HTML-a?</h3>
+                <h3 class="section__subtitle">Jak stworzyć prawidłowo HTML-a?</h3>
                 <p class="paragraph">
                     Tworzenie zgodnego ze standartami HTML-a to sztuka, którą do perfekcji opanowało niewielu tak
                     twierdzi Maciej Korsan. Aby sprawdzić czy to co napisaliśmy nie zawiera błędów, należy udać się
@@ -55,7 +55,7 @@
                 </p>
             </section>
             <section class="article">
-                <h3 class="sectionSubtitle">Gdzie można znaleźdź materiały pomagające w CSS-ach</h3>
+                <h3 class="section__subtitle">Gdzie można znaleźdź materiały pomagające w CSS-ach</h3>
                 <p class="paragraph">Podstawową stroną gdzie są opisane wszystkie znaczniki CSS jest <a class="link"
                         href="https://cssreference.io/">cssreference.io</a>. Po kilku dniach musze jednak dopisać,
                     że
@@ -64,13 +64,13 @@
                 </p>
             </section>
             <section class="article">
-                <h3 class="sectionSubtitle">Irlandia-środa</h3>
+                <h3 class="section__subtitle">Irlandia-środa</h3>
                 <p class="paragraph">Patrzę na szarą irlandzką pogodę przez onko, pada deszcz, wieje wiatr -
                     tragedia.
                 </p>
             </section>
             <section class="article">
-                <h3 class="sectionSubtitle">Irlandia-czwartek</h3>
+                <h3 class="section__subtitle">Irlandia-czwartek</h3>
                 <p class="paragraph">Nic się nie zmieniło od wczoraj, może tyle, że bardziej wieje. Mam podejrzenia
                     co do powietrza w
                     oponie, wygląda jakbym miał obce ciało tam, które powoduje utratę powietrza. Ciekawe czy to los
@@ -79,7 +79,7 @@
                 </p>
             </section>
             <section class="article">
-                <h3 class="sectionSubtitle">Irlandia-piątek</h3>
+                <h3 class="section__subtitle">Irlandia-piątek</h3>
                 <p class="paragraph">Rano powietrze jeszczy było, ale w pracy juz widzę, że trzeba będzie naprawić.
                     Gregor dał namiary
                     na
@@ -88,7 +88,7 @@
                 </p>
             </section>
             <section class="article">
-                <h3 class="sectionSubtitle">Irlandia-sobota</h3>
+                <h3 class="section__subtitle">Irlandia-sobota</h3>
                 <p class="paragraph">To było dwa dni temu, bo piszę to w poniedziałek, nie jestem fanem pamiętników,
                     ale Maciej Korsan
                     mówił,
@@ -97,7 +97,7 @@
                 </p>
             </section>
             <section class="article">
-                <h3 class="sectionSubtitle">Irlandia-niedziela</h3>
+                <h3 class="section__subtitle">Irlandia-niedziela</h3>
                 <p class="paragraph">Rano wstałem jako stary człowiek, pojechałem rozruszać kości na siłownię, jakiś
                     festyn, dużo typa
                     w
@@ -111,7 +111,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         Strona domowa Zbigniewa Drelicha, wszystkie treści są efektem szkolenia WTF: Co ten frontend.
     </footer>
     <script src="main.js"></script>

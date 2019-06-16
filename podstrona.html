@@ -10,40 +10,31 @@
 </head>
 
 <body>
-    <header class="nav">
-        <a href="index.html">Strona główna</a>
-        <a href="podstrona.html">Podstrona</a>
-        <a href="monday.html">Poniedziałek-3-tydzień</a>
-        <a href="tuesday.html">Wtorek-3-tydzień</a>
-        <a href="wednesday.html">Środa-3-tydzień</a>
-        <a href="thursday.html">Czwartek-3-tydzień</a>
-        <a href="friday.html">Piątek-3-tydzień</a>
-        <a href="saturday.html">Sobota-3-tydzień</a>
-        <a href="sunday.html">Niedziela-3-tydzień</a>
+    <header class="navigation">
+        <a class="navigation__link" href="index.html">Main Page</a>
+        <a class="navigation__link" href="podstrona.html">Subpage</a>
+        <a class="navigation__link" href="monday.html">Monday</a>
+        <a class="navigation__link" href="tuesday.html">Tuesday</a>
+        <a class="navigation__link" href="wednesday.html">Wednesday</a>
+        <a class="navigation__link" href="thursday.html">Thursday</a>
+        <a class="navigation__link" href="friday.html">Friday</a>
+        <a class="navigation__link" href="saturday.html">Saturday</a>
+        <a class="navigation__link" href="sunday.html">Sunday</a>
     </header>
     <main>
-        <article>
+        <article class="article">
             <header>
-                <h1 class="mainHeader">Jak stworzyć prawidłowego HTML-a.</h1>
+                <h1 class="main__header">Jak stworzyć prawidłowego HTML-a.</h1>
             </header>
-            <p>Atrybuty są na stronie <a
+            <p class="paragraph">Atrybuty są na stronie <a class="link"
                     href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes">Mozilla</a></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit quia beatae vel quisquam
-                inventore rerum eaque incidunt similique unde praesentium, voluptatem non fugit, optio officiis sunt
-                consequuntur maxime accusantium!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit quia beatae vel quisquam
-                inventore rerum eaque incidunt similique unde praesentium, voluptatem non fugit, optio officiis sunt
-                consequuntur maxime accusantium!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit quia beatae vel quisquam
-                inventore rerum eaque incidunt similique unde praesentium, voluptatem non fugit, optio officiis sunt
-                consequuntur maxime accusantium!</p>
-            <footer>
-                <img src="lorem.jpg" alt="Zdjęcie autora Lorem Ipsum">
+            <footer class="article__footer">
+                <img class="image" src="lorem.jpg" alt="Zdjęcie autora Lorem Ipsum">
                 Autorem artykułu jest Lorem Ipsum z Włoch.
             </footer>
         </article>
     </main>
-    <footer>
+    <footer class="footer">
         Strona domowa Zbigniewa Drelicha, wszystkie treści są efektem szkolenia WTF: Co ten frontend.
     </footer>
     <script src="main.js"></script>

@@ -8,25 +8,26 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
-.nav {
+.navigation {
     text-transform: uppercase;
 }
 
-.nav a {
+.navigation__link {
     text-decoration: none;
 }
 
-.mainHeader {
+
+.main__header-title {
     color: tomato;
-    font-weight: 700
+    font-weight: 700;
 }
 
-.sectionHeader {
+.section__header {
     color: #1460aa;
     font-weight: 700;
 }
 
-.sectionSubtitle {
+.section__subtitle {
     color: #257042;
 }
 
@@ -34,18 +35,21 @@ body {
     color: darkblue;
 }
 
-.footerArticle {
+.article__footer {
     font-weight: 700;
+    font-size: 10px;
 }
 
 .link {
     color: #846c5b;
 }
 
-.article--about,
+.main__header-title,
+.section__header,
+.article__about,
 .article {
     width: 100%;
     max-width: 700px;
     box-sizing: border-box;
-    margin: 32px auto:
+    margin: 32px auto;
 }
